@@ -6,7 +6,6 @@ helmGlobals:
 
 helmCharts:
 - name: helm-guestbook
-  version: 0.1.0
   releaseName: helm-guestbook-stage
   namespace: guestbook
   valuesFile: https://raw.githubusercontent.com/codefresh-contrib/argocd-guestbook-environments/main/staging/guestbook/values.yaml
