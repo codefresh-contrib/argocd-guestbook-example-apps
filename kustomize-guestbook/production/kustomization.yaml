@@ -1,11 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
 helmGlobals:
   chartHome: ../..
-
 helmCharts:
-- name: helm-guestbook
-  releaseName: helm-guestbook-prod
-  namespace: guestbook
-  valuesFile: https://raw.githubusercontent.com/codefresh-contrib/argocd-guestbook-environments/main/production/guestbook/values.yaml
+  - name: helm-guestbook
+    releaseName: helm-guestbook-prod
+    namespace: guestbook
+    valuesFile: https://raw.githubusercontent.com/codefresh-contrib/argocd-guestbook-example-apps/f52ee2e8841863b9ad207297e154722503b6d62f/production/guestbook/values.yaml
