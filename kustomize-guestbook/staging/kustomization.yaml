@@ -6,5 +6,4 @@ helmCharts:
   - name: helm-guestbook
     releaseName: helm-guestbook-stage
     namespace: guestbook
-    valuesFile: https://raw.githubusercontent.com/codefresh-contrib/{{ inputs.parameters.REPO_NAME
-      }}/3aa85a2af638a04e7fa76f8a92d44f3f22aa0e58/staging/guestbook/values.yaml
+    valuesFile: https://raw.githubusercontent.com/codefresh-contrib/argocd-guestbook-environments/939514753b17d03b3f46d1290745da9535dd772e/staging/guestbook/values.yaml
