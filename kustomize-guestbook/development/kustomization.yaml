@@ -6,4 +6,4 @@ helmCharts:
   - name: helm-guestbook
     releaseName: helm-guestbook-dev
     namespace: guestbook
-    valuesFile: https://raw.githubusercontent.com/codefresh-contrib/argocd-guestbook-environments/a4d79b803cabe76a8cf344d8b67bff4a7046437a/development/guestbook/values.yaml
+    valuesFile: https://raw.githubusercontent.com/codefresh-contrib/argocd-guestbook-environments/83a2d460cc61a35bc02a6b1d3b562b35ac2b66d7/development/guestbook/values.yaml
